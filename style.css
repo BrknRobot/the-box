@@ -3,4 +3,14 @@ Theme Name: The Box Child
 Template: the-box
 */
 
-@import 'http://thefocusedmanager.com/wp/wp-content/themes/the-box/style.css';
+@import '../the-box/style.css';
+
+h1,h2,h3,h4,h5,h6 {
+   clear: none;
+}
+
+.wp-caption.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0.5em auto;
+}
